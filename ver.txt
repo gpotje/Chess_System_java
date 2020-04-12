@@ -18,4 +18,46 @@ o Constructors
 o ToString (Object / overriding
 
 145 ------------------------------------------------------------------
-
+Starting to implement Board and Piece
+Checklist:
+? Classes Piece, Board [public]
+? OOP Topics:
+o Associations
+o Encapsulation / Access Modifiers
+? Data Structures
+146-------------------------------------------------------------------
+Chess layer and printing the board
+8 - - - - - - - -
+7 - - - - - - - -
+6 - - - - - - - -
+5 - - - - - - - -
+4 - - - - - - - -
+3 - - - - - - - -
+2 - - - - - - - -
+1 - - - - - - - -
+a b c d e f g h
+Checklist:
+? Methods: Board.Piece(row, column) and Board.Piece(position)
+? Enum Chess.Color
+? Class Chess.ChessPiece [public]
+? Class Chess.ChessMatch [public]
+? Class ChessConsole.UI
+? OOP Topics:
+o Enumerations
+o Encapsulation / Access Modifiers
+o Inheritance
+o Downcasting
+o Static members
+o Layers pattern
+? Data Structures Topics:
+o Matrix
+147------------------------------------------------------------------------
+Placing pieces on the board
+Checklist:
+? Method: Board.PlacePiece(piece, position)
+? Classes: Rook, King [public]
+? Method: ChessMatch.InitialSetup
+? OOP Topics:
+o Inheritance
+o Overriding
+o Polymorphism (ToString)
