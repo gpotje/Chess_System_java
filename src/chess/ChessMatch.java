@@ -25,6 +25,10 @@ public class ChessMatch {
 		
 		
 	}
+	
+	
+	
+	
 	private Piece makeMove(Position source,Position target){
 		Piece p = board.removePiece(source);
 		Piece capturedPiece = board.removePiece(target);
@@ -40,6 +44,10 @@ public class ChessMatch {
 			throw new ChessException("there is piece on source position");
 			
 		}
+		if(!board.piece(position).isThereAnyPossibleMove()){
+			throw new ChessException("there is not possible moves for the chosen piece");
+		}
+		
 		
 	}
 	
