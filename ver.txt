@@ -72,5 +72,6 @@ o Polymorphism (ToString)
 .
 .
 .
-154-----------------movimentos possiveis---------------------------------------
+154-----------------movimentos possiveis torre---------------------------------------
 156-----------------IMP movimentos possiveis-----------------------------------
+157 -------------------------movimentos possiveis Rei-------------------------
