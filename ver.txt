@@ -73,3 +73,4 @@ o Polymorphism (ToString)
 .
 .
 154-----------------movimentos possiveis---------------------------------------
+156-----------------IMP movimentos possiveis-----------------------------------
